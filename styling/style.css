@@ -80,3 +80,21 @@ main {
 	font-size: 18px;
 	cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+  nav {
+    display: none;
+    /* flex-direction: column;
+    align-content: flex-start; */
+  }
+  main {
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+  #right img {
+    display: none;
+  }
+}
